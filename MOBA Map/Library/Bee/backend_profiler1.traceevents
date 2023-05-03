@@ -1,0 +1,534 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1682072259022123, "dur":1706, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682072259023839, "dur":59, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1682072259023907, "dur":20, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1682072259023927, "dur":339, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1682072259024297, "dur":548, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682072259024845, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682072260221292, "dur":404, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682072260221696, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682072260221704, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682072260221707, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682072260221716, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682072260221718, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682072260221722, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682072260221723, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682072260221728, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682072260221729, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682072260221736, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682072260221737, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682072260221741, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682072260221743, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682072260221748, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682072260221749, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682072260221753, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682072260221755, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682072260221760, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682072260221761, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682072260221765, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682072260221766, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682072260221771, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682072260221773, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682072260221778, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682072260221795, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682072260221811, "dur":4806, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1682072259025011, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682072259025012, "dur":2359, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682072259027373, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1682072259027424, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682072259049413, "dur":1801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1682072259051232, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1682072259051262, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682072259051323, "dur":7747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1682072259059086, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1682072259059162, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682072259059169, "dur":81187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1682072259140379, "dur":29409, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682072259169795, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682072259169809, "dur":2526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682072259172360, "dur":22685, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682072259195051, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682072259195062, "dur":1055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682072259196137, "dur":41471, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682072259237622, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682072259237633, "dur":1186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682072259238837, "dur":64477, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682072259303320, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682072259303333, "dur":1190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682072259304543, "dur":42391, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682072259347531, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682072259347550, "dur":1897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682072259349465, "dur":20923, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682072259370391, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682072259370398, "dur":14454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682072259384870, "dur":26878, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682072259411753, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682072259411765, "dur":1236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682072259413018, "dur":25492, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682072259438515, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682072259438527, "dur":2078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682072259440627, "dur":45228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682072259485860, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682072259485871, "dur":1101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682072259486990, "dur":32269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682072259519263, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682072259519271, "dur":2327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682072259521652, "dur":44176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682072259565834, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682072259565845, "dur":12829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682072259578695, "dur":73036, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682072259651736, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682072259651748, "dur":1458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682072259653226, "dur":157510, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682072259810743, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682072259810756, "dur":14930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682072259825707, "dur":143060, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682072259968770, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682072259968777, "dur":2915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682072259971745, "dur":388, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1682072259972153, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682072259972181, "dur":2705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1682072259974913, "dur":12919, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1682072259987839, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682072259987857, "dur":1701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1682072259989586, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1682072259989652, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682072259989676, "dur":10865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1682072260000573, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1682072260000592, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682072260000605, "dur":1807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1682072260002436, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1682072260002454, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682072260002466, "dur":1667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1682072260004155, "dur":217130, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682072259024522, "dur":340, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682072259024864, "dur":2463, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682072259027335, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1682072259027338, "dur":15455, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682072259042797, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1682072259042804, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682072259107928, "dur":2284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1682072259110215, "dur":50526, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682072259160747, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682072259160794, "dur":2559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682072259164931, "dur":83761, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682072259248741, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682072259248762, "dur":2455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682072259251235, "dur":47806, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682072259299079, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682072259299091, "dur":1549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682072259300656, "dur":21504, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682072259322163, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682072259322171, "dur":9340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682072259331534, "dur":38715, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682072259370253, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682072259370260, "dur":13428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682072259383709, "dur":21893, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682072259405608, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682072259405619, "dur":1131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682072259406770, "dur":22916, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682072259429692, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682072259429705, "dur":1737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682072259431462, "dur":171584, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682072259603053, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682072259603095, "dur":3031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682072259606143, "dur":70349, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682072259676498, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682072259676508, "dur":1236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682072259677760, "dur":133077, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682072259810841, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682072259810884, "dur":1903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682072259812810, "dur":145484, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682072259958300, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682072259958313, "dur":1727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682072259960077, "dur":76105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Plugins/x86_64/sqlite3.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682072260036190, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682072260036787, "dur":3478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Plugins/x86_64/sqlite3.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682072260040287, "dur":180997, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682072259024781, "dur":106, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682072259024888, "dur":2482, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682072259027371, "dur":9803, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1682072259037178, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682072259095276, "dur":1337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1682072259096634, "dur":23540, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682072259120180, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682072259120715, "dur":1202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682072259121935, "dur":26633, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682072259148574, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682072259148585, "dur":2570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682072259151181, "dur":30883, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682072259182068, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682072259182079, "dur":6503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682072259188604, "dur":154946, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682072259343556, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682072259343567, "dur":1550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682072259345138, "dur":52770, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682072259397914, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682072259397945, "dur":1740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682072259399709, "dur":27136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682072259426851, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682072259426863, "dur":1224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682072259428108, "dur":69722, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682072259497835, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682072259497855, "dur":18307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682072259516196, "dur":35872, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682072259552074, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682072259552086, "dur":1373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682072259553479, "dur":957, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682072259554441, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682072259554452, "dur":1325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682072259555796, "dur":22395, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682072259578197, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682072259578210, "dur":25397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682072259603626, "dur":75539, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682072259679168, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682072259679178, "dur":2717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682072259681912, "dur":49521, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682072259731438, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682072259731451, "dur":1540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682072259733011, "dur":293722, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682072260026773, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682072260026793, "dur":5844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682072260032660, "dur":188632, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682072259024653, "dur":228, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682072259024882, "dur":2493, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682072259027376, "dur":481, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1682072259027860, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682072259082780, "dur":6534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1682072259089335, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1682072259089373, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682072259090099, "dur":35398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1682072259125519, "dur":23289, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682072259148812, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682072259148820, "dur":6767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682072259155612, "dur":22798, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682072259178416, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682072259178429, "dur":1138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682072259179590, "dur":51443, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682072259231039, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682072259231052, "dur":1225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682072259232296, "dur":36878, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682072259269180, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682072259269192, "dur":1728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682072259270939, "dur":41908, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682072259312853, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682072259312865, "dur":1261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682072259314144, "dur":102912, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682072259417062, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682072259417075, "dur":1142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682072259418238, "dur":42936, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682072259461178, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682072259461187, "dur":1684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682072259462892, "dur":101006, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682072259563901, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682072259563913, "dur":39782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682072259603711, "dur":34571, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682072259638287, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682072259638298, "dur":7737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682072259646054, "dur":199862, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682072259845921, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682072259845932, "dur":4994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682072259850948, "dur":366752, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682072260217727, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682072260217736, "dur":3489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682072260221244, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":4, "ts":1682072260221246, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682072259024929, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682072259024930, "dur":2444, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682072259027375, "dur":22434, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1682072259049815, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682072259050145, "dur":962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1682072259051125, "dur":49261, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1682072259100391, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682072259100404, "dur":1114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1682072259101536, "dur":28518, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682072259130059, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682072259130148, "dur":1770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682072259131937, "dur":141829, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682072259273772, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682072259273785, "dur":4853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682072259278661, "dur":60755, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682072259339422, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682072259339435, "dur":7913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682072259347367, "dur":113172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682072259460544, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682072259460557, "dur":2330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682072259462904, "dur":98998, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682072259561909, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682072259561930, "dur":1853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682072259563807, "dur":39329, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682072259603140, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682072259603148, "dur":2484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682072259605648, "dur":281231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682072259886887, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682072259886901, "dur":31066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682072259918005, "dur":113784, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682072260031795, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682072260031811, "dur":1741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682072260033574, "dur":187713, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682072259025104, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682072259025105, "dur":2239, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682072259027345, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1682072259027393, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682072259044550, "dur":10169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1682072259054740, "dur":16543, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1682072259071288, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682072259071301, "dur":1080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1682072259072395, "dur":80801, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1682072259153202, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682072259153214, "dur":2563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1682072259155798, "dur":25263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682072259181067, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682072259181080, "dur":1154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682072259182253, "dur":149859, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682072259332117, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682072259332127, "dur":2157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682072259334306, "dur":35285, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682072259369597, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682072259369612, "dur":14677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682072259384307, "dur":37967, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682072259422280, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682072259422292, "dur":2207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682072259424521, "dur":23361, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682072259447888, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682072259447899, "dur":1177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682072259449097, "dur":29056, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682072259478159, "dur":11, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682072259478180, "dur":1550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682072259479751, "dur":236867, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682072259716622, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682072259716633, "dur":7574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682072259724228, "dur":359653, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682072260083902, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682072260083918, "dur":3274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682072260087215, "dur":134080, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682072259025241, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682072259025242, "dur":2087, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682072259027335, "dur":34183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1682072259061522, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682072259061750, "dur":1306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1682072259063067, "dur":636206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682072259699279, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682072259699353, "dur":7899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682072259707276, "dur":131117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682072259838399, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682072259838411, "dur":1270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682072259839702, "dur":51591, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682072259891359, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682072259891377, "dur":5422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682072259896821, "dur":270243, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682072260167069, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682072260167077, "dur":1389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682072260168480, "dur":52826, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682072259025511, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682072259025511, "dur":1858, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682072259027370, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1682072259027409, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682072259044490, "dur":10303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1682072259054807, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1682072259054838, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682072259054848, "dur":11849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1682072259066710, "dur":1022206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682072260088922, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682072260088932, "dur":18674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682072260107623, "dur":113678, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682072259025379, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682072259025380, "dur":1996, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682072259027377, "dur":10488, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1682072259037868, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682072259101182, "dur":1476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1682072259102676, "dur":46673, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682072259149354, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682072259149361, "dur":14767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682072259164679, "dur":32121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682072259196804, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682072259196822, "dur":1523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682072259198366, "dur":52865, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682072259251235, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682072259251244, "dur":2304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682072259253570, "dur":26850, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682072259280425, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682072259280437, "dur":16575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682072259297047, "dur":24335, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682072259321389, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682072259321402, "dur":4760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682072259326183, "dur":56131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682072259382321, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682072259382336, "dur":2668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682072259385021, "dur":27442, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682072259412467, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682072259412475, "dur":1736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682072259414231, "dur":54880, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682072259469116, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682072259469163, "dur":2110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682072259471292, "dur":71852, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682072259543150, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682072259543163, "dur":1657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682072259544840, "dur":82152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682072259626998, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682072259627011, "dur":1477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682072259628507, "dur":108582, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682072259737094, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682072259737105, "dur":1425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682072259738549, "dur":225030, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682072259963587, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682072259963601, "dur":3283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682072259966903, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":9, "ts":1682072259966934, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682072259966989, "dur":1759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":9, "ts":1682072259968766, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":9, "ts":1682072259968783, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682072259968789, "dur":17270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":9, "ts":1682072259986087, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1682072259986134, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682072259986150, "dur":6345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1682072259992526, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/level0" }}
+,{ "pid":12345, "tid":9, "ts":1682072259992548, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682072259992559, "dur":11031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/level0" }}
+,{ "pid":12345, "tid":9, "ts":1682072260003613, "dur":252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/boot.config" }}
+,{ "pid":12345, "tid":9, "ts":1682072260003869, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682072260003878, "dur":1278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/boot.config" }}
+,{ "pid":12345, "tid":9, "ts":1682072260005177, "dur":216111, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682072259025656, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682072259025656, "dur":1723, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682072259027380, "dur":515, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1682072259027898, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682072259089915, "dur":1958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1682072259091896, "dur":73090, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682072259164991, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682072259165001, "dur":10109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682072259175134, "dur":44115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682072259219255, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682072259219276, "dur":8250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682072259227555, "dur":51822, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682072259279381, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682072259279393, "dur":14263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682072259293682, "dur":43691, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682072259337378, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682072259337391, "dur":4051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682072259341462, "dur":29102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682072259370568, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682072259370575, "dur":13532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682072259384137, "dur":85068, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682072259469209, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682072259469217, "dur":3274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682072259472508, "dur":85651, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682072259558162, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682072259558171, "dur":1851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682072259560043, "dur":26368, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682072259586415, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682072259586425, "dur":17872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682072259604313, "dur":371632, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682072259975952, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682072259975974, "dur":30941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682072260006941, "dur":214348, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682072259025783, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682072259025784, "dur":1589, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682072259027374, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1682072259027439, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682072259079226, "dur":9399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1682072259088646, "dur":32748, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map.exe" }}
+,{ "pid":12345, "tid":11, "ts":1682072259121399, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682072259121407, "dur":1719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map.exe" }}
+,{ "pid":12345, "tid":11, "ts":1682072259123155, "dur":38819, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682072259161979, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682072259161989, "dur":3972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682072259165980, "dur":22994, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682072259188978, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682072259188989, "dur":1371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682072259190380, "dur":21857, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682072259212277, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682072259212289, "dur":1806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682072259214116, "dur":111662, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682072259325785, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682072259325870, "dur":1359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682072259327252, "dur":37245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682072259364502, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682072259364515, "dur":1132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682072259365666, "dur":24556, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682072259390228, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682072259390240, "dur":1436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682072259391696, "dur":127137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682072259518838, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682072259518880, "dur":15791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682072259534694, "dur":23838, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682072259558566, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682072259558575, "dur":1763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682072259560355, "dur":42807, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682072259603166, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682072259603172, "dur":2401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682072259605590, "dur":102216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682072259707810, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682072259707820, "dur":1154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682072259708994, "dur":54921, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682072259763921, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682072259763932, "dur":2529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682072259766479, "dur":213413, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682072259979904, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682072259979935, "dur":39345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682072260019318, "dur":201985, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682072259026079, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682072259026079, "dur":1266, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682072259027345, "dur":16650, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1682072259043999, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682072259044471, "dur":2665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1682072259047160, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1682072259047199, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682072259049515, "dur":8834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1682072259058368, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":12, "ts":1682072259058405, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682072259058414, "dur":3242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":12, "ts":1682072259061674, "dur":47132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682072259108811, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682072259109824, "dur":3548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682072259113393, "dur":48709, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682072259162105, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682072259162113, "dur":4382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682072259166523, "dur":83746, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682072259250274, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682072259250284, "dur":1126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682072259251427, "dur":35762, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682072259287195, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682072259287206, "dur":13119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682072259300346, "dur":21747, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682072259322097, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682072259322106, "dur":1823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682072259323953, "dur":22797, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682072259346756, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682072259346768, "dur":1177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682072259347962, "dur":22052, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682072259370017, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682072259370025, "dur":13774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682072259383816, "dur":71329, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682072259455159, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682072259455170, "dur":1503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682072259456694, "dur":46044, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682072259502743, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682072259502756, "dur":1175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682072259503949, "dur":54095, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682072259558049, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682072259558062, "dur":1987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682072259560066, "dur":43081, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682072259603150, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682072259603157, "dur":2342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682072259605518, "dur":46217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682072259651739, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682072259651748, "dur":1875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682072259653638, "dur":85452, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682072259739094, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682072259739104, "dur":1494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682072259740617, "dur":45397, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682072259786020, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682072259786032, "dur":1627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682072259787680, "dur":176257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682072259963940, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682072259963974, "dur":2774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682072259966772, "dur":270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":12, "ts":1682072259967046, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682072259967498, "dur":1177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":12, "ts":1682072259968693, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1682072259968745, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682072259968755, "dur":121825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jamie/OneDrive/Desktop/Final Product/Evo Cell/MOBA Map_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1682072260090604, "dur":130702, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682072260266290, "dur":1860, "ph":"X", "name": "ProfilerWriteOutput" }
+,
