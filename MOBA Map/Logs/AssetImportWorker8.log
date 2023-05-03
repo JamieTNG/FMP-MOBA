@@ -1,0 +1,557 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.16f1 (4016570cf34f) revision 4200023'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 16280 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\2021.3.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker8
+-projectPath
+E:/Work ()/FMP WORK/MOBA Map
+-logFile
+Logs/AssetImportWorker8.log
+-srvPort
+57179
+Successfully changed project path to: E:/Work ()/FMP WORK/MOBA Map
+E:/Work ()/FMP WORK/MOBA Map
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [23128] Host "[IP] 192.168.1.151 [Port] 0 [Flags] 2 [Guid] 1877119090 [EditorId] 1877119090 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-3O1H008) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [23128] Host "[IP] 192.168.1.151 [Port] 0 [Flags] 2 [Guid] 1877119090 [EditorId] 1877119090 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-3O1H008) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 106.90 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.16f1 (4016570cf34f)
+[Subsystems] Discovering subsystems at path D:/Unity/2021.3.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Work ()/FMP WORK/MOBA Map/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 (ID=0x2507)
+    Vendor:   NVIDIA
+    VRAM:     8056 MB
+    Driver:   31.0.15.3141
+Initialize mono
+Mono path[0] = 'D:/Unity/2021.3.16f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/2021.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/2021.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56012
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/2021.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Unity/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002146 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 100.55 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.644 seconds
+Domain Reload Profiling:
+	ReloadAssembly (644ms)
+		BeginReloadAssembly (78ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (468ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (109ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (286ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (101ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (134ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007443 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Work ()\FMP WORK\MOBA Map\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Work ()\FMP WORK\MOBA Map\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.424 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3425ms)
+		BeginReloadAssembly (113ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (3113ms)
+			LoadAssemblies (1818ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (337ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (855ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (691ms)
+				ProcessInitializeOnLoadMethodAttributes (74ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.97 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3764 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (158.3 KB). Loaded Objects now: 4233.
+Memory consumption went from 138.7 MB to 138.6 MB.
+Total: 3.708000 ms (FindLiveObjects: 0.336300 ms CreateObjectMapping: 0.301500 ms MarkObjects: 2.885700 ms  DeleteObjects: 0.182900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 51385.839886 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Exit sign/Exit sign.obj
+  artifactKey: Guid(4e2718d9319a252469129fa30b1f5c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Exit sign/Exit sign.obj using Guid(4e2718d9319a252469129fa30b1f5c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5900dda1e3f174516fed10d932bfee4') in 0.380378 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Exit sign/Emission texture.jpg
+  artifactKey: Guid(9d7083428b4ac35418f869d877de039e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Exit sign/Emission texture.jpg using Guid(9d7083428b4ac35418f869d877de039e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '199e013272a2e4f7f98e47dc13ac8e13') in 0.091530 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.099574 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Exit sign
+  artifactKey: Guid(8c2ae1e877fa2e343a9463c64aee62ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Exit sign using Guid(8c2ae1e877fa2e343a9463c64aee62ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcac9d7625800ee6563af1c7a4688003') in 0.024588 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008690 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Work ()\FMP WORK\MOBA Map\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Work ()\FMP WORK\MOBA Map\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.99 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.030 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1031ms)
+		BeginReloadAssembly (149ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (794ms)
+			LoadAssemblies (102ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (302ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (311ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (65ms)
+				ProcessInitializeOnLoadAttributes (208ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.37 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3727 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (133.6 KB). Loaded Objects now: 4282.
+Memory consumption went from 140.1 MB to 139.9 MB.
+Total: 3.275000 ms (FindLiveObjects: 0.306300 ms CreateObjectMapping: 0.262100 ms MarkObjects: 2.579500 ms  DeleteObjects: 0.126100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 658.403102 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Extended Primitives/Cube_1x1_extended.prefab
+  artifactKey: Guid(1b9426746a4365c40b24a81f6ad2daea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Extended Primitives/Cube_1x1_extended.prefab using Guid(1b9426746a4365c40b24a81f6ad2daea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4727d46c0ee3f6a098a00ab7a899966a') in 0.801051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Extended Primitives/Sphere_32_extended.prefab
+  artifactKey: Guid(de147e9408aafd44da3a10d9b4fdc046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Extended Primitives/Sphere_32_extended.prefab using Guid(de147e9408aafd44da3a10d9b4fdc046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a591e9f3ebdebf5b975ac29ca3e65cd4') in 0.252522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Extended Primitives/Cylinder_16_extended.prefab
+  artifactKey: Guid(3f6d5a55a145f4f40bebd7d054c548f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Extended Primitives/Cylinder_16_extended.prefab using Guid(3f6d5a55a145f4f40bebd7d054c548f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '195acf3cffe68fe89f7db4d88b28207d') in 0.102389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.376943 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Red lane.prefab
+  artifactKey: Guid(9d359f7b7ef420d46a2b4d599b4dc652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Red lane.prefab using Guid(9d359f7b7ef420d46a2b4d599b4dc652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e99aa781f4dc6a5be3d3e15a97b79b4') in 0.007495 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 955.167107 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/FBX
+  artifactKey: Guid(1f552b7ce2345ca408434c0e214071fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/FBX using Guid(1f552b7ce2345ca408434c0e214071fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aca5a563dd8b707de4c67620f2eeef0d') in 0.008470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.019662 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/FBX/All
+  artifactKey: Guid(4d475f7c5e275df4cab10ff62efd0932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/FBX/All using Guid(4d475f7c5e275df4cab10ff62efd0932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96fb05dc35d45ed0f592daac32a22abf') in 0.024743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.031636 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/FBX/All/bottle_dropper.fbx
+  artifactKey: Guid(3fd98013c37e49a4dae4531850df5f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/FBX/All/bottle_dropper.fbx using Guid(3fd98013c37e49a4dae4531850df5f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ee0962ac845c140969dde9d96ae931c') in 0.151596 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/FBX/All/bottle_glassware_pear_shaped_flask_large_003.fbx
+  artifactKey: Guid(9288cc1d6a677e54e926e3572ec9373f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/FBX/All/bottle_glassware_pear_shaped_flask_large_003.fbx using Guid(9288cc1d6a677e54e926e3572ec9373f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26b8bd0b9f54a68bcdbcfa9ccecfefcc') in 0.025576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/FBX/All/bottle_glassware_kjeldahl_flask_large.fbx
+  artifactKey: Guid(afe99321fc3a6824bb024d9ae36d9091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/FBX/All/bottle_glassware_kjeldahl_flask_large.fbx using Guid(afe99321fc3a6824bb024d9ae36d9091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45dc765989a8c63da1547279b3de4c92') in 0.032100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/FBX/All/bottle_glassware_buchner_flask_large.fbx
+  artifactKey: Guid(98a337067bf069a4e8cce00e15db3c9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/FBX/All/bottle_glassware_buchner_flask_large.fbx using Guid(98a337067bf069a4e8cce00e15db3c9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b0252798d273b22473bd93d24b92455') in 0.033508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/FBX/All/bottle_glassware_pear_shaped_flask_large.fbx
+  artifactKey: Guid(4dbbd89bb56619447af6bd4c1b972723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/FBX/All/bottle_glassware_pear_shaped_flask_large.fbx using Guid(4dbbd89bb56619447af6bd4c1b972723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cddbea02ccaa79e781c7cf8b54dbd35') in 0.025155 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/FBX/All/bottle_glassware_retort_flask_medium.fbx
+  artifactKey: Guid(8d79f3c40af796843bc8efba819ed527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/FBX/All/bottle_glassware_retort_flask_medium.fbx using Guid(8d79f3c40af796843bc8efba819ed527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4099f81b7a6f849f2ef7cd059cfed400') in 0.047581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/FBX/All/bottle_glassware_retort_flask_large.fbx
+  artifactKey: Guid(12802a21423af5c45820290541de5a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/FBX/All/bottle_glassware_retort_flask_large.fbx using Guid(12802a21423af5c45820290541de5a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bc17c78f0312b110695769c3904cd25') in 0.028662 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/FBX/All/bottle_glassware_graduated_cylinder_large_base.fbx
+  artifactKey: Guid(e67e89e5a1437084bb6e326b33d18f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/FBX/All/bottle_glassware_graduated_cylinder_large_base.fbx using Guid(e67e89e5a1437084bb6e326b33d18f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d79865c022d19919ed3ff7cdffdb639') in 0.051317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/FBX/All/bottle_glassware_round_bottom_flask_small.fbx
+  artifactKey: Guid(7ff6b4734d79d3848b6661337c5bf536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/FBX/All/bottle_glassware_round_bottom_flask_small.fbx using Guid(7ff6b4734d79d3848b6661337c5bf536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ece85185eec81583f01586e000420829') in 0.063361 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/FBX/All/bottle_glassware_claisen_flask_large.fbx
+  artifactKey: Guid(52fb45c41b3ea854e9190bca8c0da595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/FBX/All/bottle_glassware_claisen_flask_large.fbx using Guid(52fb45c41b3ea854e9190bca8c0da595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ec5237a5b0897c4d33a3db81cb15bd6') in 0.026344 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/FBX/All/bottle_glassware_erlenmeyer_flask_medium.fbx
+  artifactKey: Guid(1437db42c50555241b0bb25b9886d389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/FBX/All/bottle_glassware_erlenmeyer_flask_medium.fbx using Guid(1437db42c50555241b0bb25b9886d389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1b6ec9ce69f505ae2396e4e6ac56bce') in 0.060400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/FBX/All/bottle_glassware_beaker_small.fbx
+  artifactKey: Guid(fdc8a5db45b314e42aa7d8b5734c3f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/FBX/All/bottle_glassware_beaker_small.fbx using Guid(fdc8a5db45b314e42aa7d8b5734c3f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '802d4524f4775d044b107577243f1b64') in 0.032695 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/FBX/All/bottle_glassware_reagent_bottle_small.fbx
+  artifactKey: Guid(9ece4354ae99bf0449c84d39e3b27fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/FBX/All/bottle_glassware_reagent_bottle_small.fbx using Guid(9ece4354ae99bf0449c84d39e3b27fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30f29d9cdc3cde3577b2abb352b9c140') in 0.051385 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/FBX/All/bottle_glassware_erlenmeyer_flask_large.fbx
+  artifactKey: Guid(8f4493e13e6368a498b65c3161082468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/FBX/All/bottle_glassware_erlenmeyer_flask_large.fbx using Guid(8f4493e13e6368a498b65c3161082468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91f428396666a5e31d08988663d8c41d') in 0.028705 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/FBX/All/bottle_glassware_graduated_cylinder_medium_base.fbx
+  artifactKey: Guid(d280c11a7f03f0543a6bd5d272b51e89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/FBX/All/bottle_glassware_graduated_cylinder_medium_base.fbx using Guid(d280c11a7f03f0543a6bd5d272b51e89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad4198b9f560bd3c9f1e033baff9c205') in 0.063494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/FBX/All/bottle_glassware_pear_shaped_flask_medium_003.fbx
+  artifactKey: Guid(85245a42dda8f7e4c92638723cd7c025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/FBX/All/bottle_glassware_pear_shaped_flask_medium_003.fbx using Guid(85245a42dda8f7e4c92638723cd7c025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ebf5378221cdde866b5faebdbe84bc3') in 0.029781 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/FBX/All/bottle_glassware_reagent_bottle_large.fbx
+  artifactKey: Guid(9f0e57dc58b00774bb6a1ac91e604d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/FBX/All/bottle_glassware_reagent_bottle_large.fbx using Guid(9f0e57dc58b00774bb6a1ac91e604d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0a351094325f840970ddb0ac46a3529') in 0.034568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/FBX/All/bottle_glassware_claisen_flask_medium.fbx
+  artifactKey: Guid(ac0c28f9fd106e0449e6aa3fe6fa8119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/FBX/All/bottle_glassware_claisen_flask_medium.fbx using Guid(ac0c28f9fd106e0449e6aa3fe6fa8119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0366d9b72d09a3ceec5f53c11b8a7d70') in 0.023749 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/FBX/All/bottle_glassware_schlenk_flask_small_.fbx
+  artifactKey: Guid(a23090c1e216c3b4d8069a6cad72f2bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/FBX/All/bottle_glassware_schlenk_flask_small_.fbx using Guid(a23090c1e216c3b4d8069a6cad72f2bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '745b54899dd49623654270879dba7d80') in 0.044647 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/FBX/All/bottle_glassware_kjeldahl_flask_medium.fbx
+  artifactKey: Guid(f11bef06f4a0baf42bd0a30c0a474406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/FBX/All/bottle_glassware_kjeldahl_flask_medium.fbx using Guid(f11bef06f4a0baf42bd0a30c0a474406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b6869172ced0aa2ec030655449dae21') in 0.095773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/FBX/All/bottle_glassware_retort_flask_small.fbx
+  artifactKey: Guid(04e97ad47397a704c9a3fff8bdfadb84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/FBX/All/bottle_glassware_retort_flask_small.fbx using Guid(04e97ad47397a704c9a3fff8bdfadb84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '364dc38cf32055cc5734ea044395559e') in 0.025485 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/FBX/All/bottle_glassware_boiling_tube_small.fbx
+  artifactKey: Guid(daaf115d3c5616342ae8661a4ba19946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/FBX/All/bottle_glassware_boiling_tube_small.fbx using Guid(daaf115d3c5616342ae8661a4ba19946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88a133e88e6c588ca45c4b3bbb23a7d4') in 0.225247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/FBX/All/bottle_glassware_reagent_bottle_medium.fbx
+  artifactKey: Guid(041219f27059dda4f9feb98abff53cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/FBX/All/bottle_glassware_reagent_bottle_medium.fbx using Guid(041219f27059dda4f9feb98abff53cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ff80c01e295c996dc078e3b6bc1166f') in 0.067946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/FBX/All/bottle_glassware_graduated_cylinder_small_base.fbx
+  artifactKey: Guid(011ce55e879d1894ab4ed596fb2ab244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/FBX/All/bottle_glassware_graduated_cylinder_small_base.fbx using Guid(011ce55e879d1894ab4ed596fb2ab244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc073b8e669797854ea4cc53aecd39fe') in 0.166581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/FBX/All/bottle_glassware_filtering_flask_small.fbx
+  artifactKey: Guid(753b6a731add1cf4c852db04a0abc5c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/FBX/All/bottle_glassware_filtering_flask_small.fbx using Guid(753b6a731add1cf4c852db04a0abc5c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3bb194567b80cd43fcb557145873c08') in 0.134640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/FBX/All/bottle_glassware_pear_shaped_flask_small_003.fbx
+  artifactKey: Guid(b774c54988d423d45a154deb3a9cfe0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/FBX/All/bottle_glassware_pear_shaped_flask_small_003.fbx using Guid(b774c54988d423d45a154deb3a9cfe0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6208d63a314ed4eb82ff56d1b636284') in 0.230446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/FBX/All/bottle_glassware_round_bottom_flask_medium.fbx
+  artifactKey: Guid(9ff97190e1f051f4182d9f7a3e0fbfba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/FBX/All/bottle_glassware_round_bottom_flask_medium.fbx using Guid(9ff97190e1f051f4182d9f7a3e0fbfba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e00a6d3a652a022a436faf367102581') in 0.243607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/FBX/All/bottle_glassware_filtering_flask_medium.fbx
+  artifactKey: Guid(a1f1b4657f1676643982798e81fb89ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/FBX/All/bottle_glassware_filtering_flask_medium.fbx using Guid(a1f1b4657f1676643982798e81fb89ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0e92713dc828ef56cb2e87d7aabd528') in 0.049788 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.115613 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/FBX/All/bottle_glassware_straus_flask_medium.fbx
+  artifactKey: Guid(38be37852d0fc904985335e3087208f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/FBX/All/bottle_glassware_straus_flask_medium.fbx using Guid(38be37852d0fc904985335e3087208f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd705be28be5c82b179ed74632e43cde4') in 0.021254 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/FBX/All/bottle_glassware_test_tube_large.fbx
+  artifactKey: Guid(6c3bff3cb80c2044fb25e1a276f6be3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/FBX/All/bottle_glassware_test_tube_large.fbx using Guid(6c3bff3cb80c2044fb25e1a276f6be3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70ee64f86146790bbbbef90ec939866a') in 0.028259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/FBX/All/bottle_glassware_vial_large.fbx
+  artifactKey: Guid(620931cff6d96134cabb9c7f743916cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/FBX/All/bottle_glassware_vial_large.fbx using Guid(620931cff6d96134cabb9c7f743916cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b360794f56d31d4451c388aaf36de11b') in 0.067341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/FBX/All/bottle_glassware_thiele_tube_003.fbx
+  artifactKey: Guid(ba96fab564bf52940b19939bfc41e64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/FBX/All/bottle_glassware_thiele_tube_003.fbx using Guid(ba96fab564bf52940b19939bfc41e64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13facfcb6ee8036050a93698396d4beb') in 0.026526 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/FBX/All/bottle_glassware_volumetric_flask_medium.fbx
+  artifactKey: Guid(b34be58836af11f488cdb588655eabbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/FBX/All/bottle_glassware_volumetric_flask_medium.fbx using Guid(b34be58836af11f488cdb588655eabbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '553dbf5b4932d52bd10a0fafe368f713') in 0.055604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/FBX/All/bottle_glassware_volumetric_flask_large.fbx
+  artifactKey: Guid(6fdc91c977d902c44ae6e15b0da79946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/FBX/All/bottle_glassware_volumetric_flask_large.fbx using Guid(6fdc91c977d902c44ae6e15b0da79946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32c186ac65eeee40793d2eb7af11d613') in 0.029534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/FBX/All/bottle_glassware_thiele_tube_.fbx
+  artifactKey: Guid(7fb89289c70760343badd4d0ad02598a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/FBX/All/bottle_glassware_thiele_tube_.fbx using Guid(7fb89289c70760343badd4d0ad02598a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aa26e8a2c80321ee410d73b16552e5d') in 0.034576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/FBX/All/bottle_glassware_volumetric_flask_small.fbx
+  artifactKey: Guid(2fb60fa19a0d33a4495ce93f751f601a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/FBX/All/bottle_glassware_volumetric_flask_small.fbx using Guid(2fb60fa19a0d33a4495ce93f751f601a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e85cfb02424bcaeae8b01ba4cb30045') in 0.070161 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/FBX/All/bottle_glassware_test_tube_medium.fbx
+  artifactKey: Guid(dae6223ab09b50447ad7fb78a25b97c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/FBX/All/bottle_glassware_test_tube_medium.fbx using Guid(dae6223ab09b50447ad7fb78a25b97c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19784650d83a9e605a50de569e4e493d') in 0.045711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.120386 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/FBX/Furniture/Cabinets/cabinet_cabinet_two_shelves.fbx
+  artifactKey: Guid(6e5099045de9f30468e498485c64df05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/FBX/Furniture/Cabinets/cabinet_cabinet_two_shelves.fbx using Guid(6e5099045de9f30468e498485c64df05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2ebac0a8dfe5f555db43a5a72f15b2c') in 0.026017 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.805985 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/FBX/Furniture/Counters/counter_counter_2_shelves.fbx
+  artifactKey: Guid(f1c9d136ff8be2548b8b9527d62d8427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/FBX/Furniture/Counters/counter_counter_2_shelves.fbx using Guid(f1c9d136ff8be2548b8b9527d62d8427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '418df6e26385494f70c139d706560a8a') in 0.076985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/FBX/Furniture/Counters/counter_counter_sink.fbx
+  artifactKey: Guid(0ca906ebb52fe4043867a23060eb9455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/FBX/Furniture/Counters/counter_counter_sink.fbx using Guid(0ca906ebb52fe4043867a23060eb9455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cf88e0a2bb9815189906d4659dd80e6') in 0.129778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/FBX/Furniture/Counters/counter_counter_side_outlet.fbx
+  artifactKey: Guid(7555c9e37fe154f41b8016b1ef32c38d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/FBX/Furniture/Counters/counter_counter_side_outlet.fbx using Guid(7555c9e37fe154f41b8016b1ef32c38d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec1ae1708c557716586565278d6a31f5') in 0.115095 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.780433 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/FBX/Heating Equipment/heating_equipment_bunsen_burner_003.fbx
+  artifactKey: Guid(a36f9c38cda340d41973e5105a773901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/FBX/Heating Equipment/heating_equipment_bunsen_burner_003.fbx using Guid(a36f9c38cda340d41973e5105a773901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26f1cb830a36cf6b1a254243a97e4817') in 0.189078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/FBX/Heating Equipment/heating_equipment_clay_triangle_003.fbx
+  artifactKey: Guid(47ec802d836d56e42a3a58167379708d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/FBX/Heating Equipment/heating_equipment_clay_triangle_003.fbx using Guid(47ec802d836d56e42a3a58167379708d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a0e1c719477328def8afd792f0e07f5') in 0.093122 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/FBX/Heating Equipment/heating_equipment_iron_stand.fbx
+  artifactKey: Guid(d77390568e3a9104a911440da0bdcf64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/FBX/Heating Equipment/heating_equipment_iron_stand.fbx using Guid(d77390568e3a9104a911440da0bdcf64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b736cfc38852e5aab15aab6349334dbc') in 0.053693 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/FBX/Heating Equipment/heating_equipment_forceps.fbx
+  artifactKey: Guid(16c3e30869045b848b708d9d231eff48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/FBX/Heating Equipment/heating_equipment_forceps.fbx using Guid(16c3e30869045b848b708d9d231eff48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a11a4c0612b968db1dfb0654df3666ee') in 0.041364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/FBX/Heating Equipment/heating_equipment_stirring_stick.fbx
+  artifactKey: Guid(1fde0d5ba259d1b43b6c24946c5ff62e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/FBX/Heating Equipment/heating_equipment_stirring_stick.fbx using Guid(1fde0d5ba259d1b43b6c24946c5ff62e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86c9e49e2ebef7bdceb26791ff30b76a') in 0.088172 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
